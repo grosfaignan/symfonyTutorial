@@ -1,0 +1,161 @@
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console doctrine:database:create
+Created database `blog` for connection named default
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console make:entity
+
+ Class name of the entity to create or update (e.g. VictoriousChef):
+ > Article 
+
+ created: src/Entity/Article.php
+ created: src/Repository/ArticleRepository.php
+ 
+ Entity generated! Now let's add some fields!
+ You can always add more fields later manually or by re-running this command.
+
+ New property name (press <return> to stop adding fields):
+ > Title 
+
+ Field type (enter ? to see all types) [string]:
+ > ?
+
+Main types
+  * string
+  * text
+  * boolean
+  * integer (or smallint, bigint)
+  * float
+
+Relationships / Associations
+  * relation (a wizard will help you build the relation)
+  * ManyToOne
+  * OneToMany
+  * ManyToMany
+  * OneToOne
+
+Array/Object Types
+  * array (or simple_array)
+  * json
+  * object
+  * binary
+  * blob
+
+Date/Time Types
+  * datetime (or datetime_immutable)
+  * datetimetz (or datetimetz_immutable)
+  * date (or date_immutable)
+  * time (or time_immutable)
+  * dateinterval
+
+Other Types
+  * decimal
+  * guid
+  * json_array
+
+
+ Field type (enter ? to see all types) [string]:
+ > string
+
+ Field length [255]:
+ > 
+
+ Can this field be null in the database (nullable) (yes/no) [no]:
+ > 
+
+ updated: src/Entity/Article.php
+
+ Add another property? Enter the property name (or press <return> to stop adding fields):
+ > content
+
+ Field type (enter ? to see all types) [string]:
+ > text
+
+ Can this field be null in the database (nullable) (yes/no) [no]:
+ >
+
+ updated: src/Entity/Article.php
+
+ Add another property? Enter the property name (or press <return> to stop adding fields):
+ > image
+
+ Field type (enter ? to see all types) [string]:
+ >
+
+ Field length [255]:
+ >
+
+ Can this field be null in the database (nullable) (yes/no) [no]:
+ >
+
+ updated: src/Entity/Article.php
+
+ Add another property? Enter the property name (or press <return> to stop adding fields):
+ > createdAt
+
+ Field type (enter ? to see all types) [datetime]:
+ >
+
+ Can this field be null in the database (nullable) (yes/no) [no]:
+ >
+
+ Add another property? Enter the property name (or press <return> to stop adding fields):
+ > image
+
+ Field type (enter ? to see all types) [string]:
+ >
+
+ Field length [255]:
+ >
+
+ Can this field be null in the database (nullable) (yes/no) [no]:
+ >
+
+ updated: src/Entity/Article.php
+
+ Add another property? Enter the property name (or press <return> to stop adding fields):
+ > createdAt
+
+ Field type (enter ? to see all types) [datetime]:
+ >
+
+ Can this field be null in the database (nullable) (yes/no) [no]:
+ >
+
+ updated: src/Entity/Article.php
+ Add another property? Enter the property name (or press <return> to stop adding fields):
+ >
+
+
+
+  Success!
+
+
+
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console make:migration
+
+ 
+  Success! 
+ 
+
+ Next: Review the new migration "src/Migrations/Version20200104190931.php"
+ Then: Run the migration with php bin/console doctrine:migrations:migrate
+ See https://symfony.com/doc/current/bundles/DoctrineMigrationsBundle/index.html
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console doctrine:migrations:migrate
+
+                    Application Migrations
+
+
+WARNING! You are about to execute a database migration that could result in schema changes and data loss. Are you sure you wish to continue? (y/n)y
+Migrating up to 20200104190931 from 0
+
+  ++ migrating 20200104190931
+
+     -> CREATE TABLE article (id INT AUTO_INCREMENT NOT NULL, title VARCHAR(255) NOT NULL, contentFAULT CHARACTER SET utf8mb4 COLLATE `utf8mb4_unicode_ci` ENGINE = InnoDB
+
+  ++ migrated (took 851.3ms, used 16M memory)
+
+  ------------------------
+
+  ++ finished in 928.7ms
+  ++ used 16M memory
+  ++ 1 migrations executed
+  ++ 1 sql queries
+

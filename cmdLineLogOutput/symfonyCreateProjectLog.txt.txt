@@ -1,0 +1,230 @@
+PS C:\wamp64\www\tutoSymfony> composer create-project symfony/website-skeleton demo
+Installing symfony/website-skeleton (v5.0.99)
+  - Installing symfony/website-skeleton (v5.0.99): Loading from cache
+Created project in demo
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Package operations: 1 install, 0 updates, 0 removals
+  - Installing symfony/flex (v1.6.0): Loading from cache
+Symfony operations: 1 recipe (dc9bd52a18e17b7934f6141047614321)
+  - Configuring symfony/flex (>=1.0): From github.com/symfony/recipes:master
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Restricting packages listed in "symfony/symfony" to "5.0.*"
+Package operations: 105 installs, 0 updates, 0 removals
+  - Installing ocramius/package-versions (1.5.1): Loading from cache
+  - Installing symfony/polyfill-mbstring (v1.13.1): Loading from cache
+  - Installing twig/twig (v3.0.1): Loading from cache
+  - Installing symfony/translation-contracts (v2.0.1): Loading from cache
+  - Installing psr/container (1.0.0): Loading from cache
+  - Installing psr/cache (1.0.1): Loading from cache
+  - Installing symfony/twig-bridge (v5.0.2): Loading from cache
+  - Installing symfony/polyfill-php73 (v1.13.1): Loading from cache
+  - Installing symfony/polyfill-intl-idn (v1.13.1): Loading from cache
+  - Installing symfony/mime (v5.0.2): Loading from cache
+  - Installing symfony/http-foundation (v5.0.2): Loading from cache
+  - Installing psr/event-dispatcher (1.0.0): Loading from cache
+  - Installing symfony/event-dispatcher-contracts (v2.0.1): Loading from cache
+  - Installing symfony/event-dispatcher (v5.0.2): Loading from cache
+  - Installing symfony/var-dumper (v5.0.2): Loading from cache
+  - Installing psr/log (1.1.2): Loading from cache
+  - Installing symfony/error-handler (v5.0.2): Loading from cache
+  - Installing symfony/http-kernel (v5.0.2): Loading from cache
+  - Installing symfony/filesystem (v5.0.2): Loading from cache
+  - Installing symfony/config (v5.0.2): Loading from cache
+  - Installing symfony/twig-bundle (v5.0.2): Loading from cache
+  - Installing symfony/routing (v5.0.2): Loading from cache
+  - Installing symfony/finder (v5.0.2): Loading from cache
+  - Installing symfony/service-contracts (v2.0.1): Loading from cache
+  - Installing symfony/dependency-injection (v5.0.2): Loading from cache
+  - Installing symfony/var-exporter (v5.0.2): Loading from cache
+  - Installing symfony/cache-contracts (v2.0.1): Loading from cache
+  - Installing symfony/cache (v5.0.2): Loading from cache
+  - Installing symfony/framework-bundle (v5.0.2): Loading from cache
+  - Installing twig/extra-bundle (v3.0.1): Loading from cache
+  - Installing symfony/twig-pack (v1.0.0): Loading from cache
+  - Installing symfony/serializer (v5.0.2): Loading from cache
+  - Installing symfony/inflector (v5.0.2): Loading from cache
+  - Installing symfony/property-info (v5.0.2): Loading from cache
+  - Installing symfony/property-access (v5.0.2): Loading from cache
+  - Installing webmozart/assert (1.6.0): Loading from cache
+  - Installing phpdocumentor/reflection-common (2.0.0): Loading from cache
+  - Installing phpdocumentor/type-resolver (1.0.1): Loading from cache
+  - Installing phpdocumentor/reflection-docblock (4.3.4): Loading from cache
+  - Installing doctrine/lexer (1.2.0): Loading from cache
+  - Installing doctrine/annotations (v1.8.0): Loading from cache
+  - Installing symfony/serializer-pack (v1.0.2): Loading from cache
+  - Installing symfony/web-profiler-bundle (v5.0.2): Loading from cache
+  - Installing symfony/stopwatch (v5.0.2): Loading from cache
+  - Installing symfony/profiler-pack (v1.0.4): Loading from cache
+  - Installing symfony/yaml (v5.0.2): Loading from cache
+  - Installing monolog/monolog (2.0.2): Loading from cache
+  - Installing easycorp/easy-log-handler (v1.0.9): Loading from cache
+  - Installing symfony/monolog-bridge (v5.0.2): Loading from cache
+  - Installing symfony/monolog-bundle (v3.5.0): Loading from cache
+  - Installing symfony/debug-bundle (v5.0.2): Loading from cache
+  - Installing symfony/debug-pack (v1.0.7): Loading from cache
+  - Installing zendframework/zend-eventmanager (3.2.1): Loading from cache
+  - Installing zendframework/zend-code (3.4.1): Loading from cache
+  - Installing ocramius/proxy-manager (2.2.3): Loading from cache
+  - Installing doctrine/event-manager (1.1.0): Loading from cache
+  - Installing doctrine/cache (1.10.0): Loading from cache
+  - Installing doctrine/dbal (v2.10.1): Loading from cache
+  - Installing doctrine/reflection (v1.0.0): Loading from cache
+  - Installing doctrine/collections (1.6.4): Loading from cache
+  - Installing doctrine/persistence (1.3.3): Loading from cache
+  - Installing doctrine/inflector (1.3.1): Loading from cache
+  - Installing doctrine/common (v2.11.0): Loading from cache
+  - Installing symfony/console (v5.0.2): Loading from cache
+  - Installing doctrine/migrations (2.2.0): Loading from cache
+  - Installing symfony/security-core (v5.0.2): Loading from cache
+  - Installing jdorn/sql-formatter (v1.2.17): Loading from cache
+  - Installing symfony/doctrine-bridge (v5.0.2): Loading from cache
+  - Installing doctrine/doctrine-bundle (2.0.6): Loading from cache
+  - Installing doctrine/doctrine-migrations-bundle (2.1.2): Loading from cache
+  - Installing doctrine/instantiator (1.3.0): Loading from cache
+  - Installing doctrine/orm (v2.7.0): Loading from cache
+  - Installing symfony/orm-pack (v1.0.7): Loading from cache
+  - Installing symfony/phpunit-bridge (v5.0.2): Loading from cache
+  - Installing symfony/css-selector (v5.0.2): Loading from cache
+  - Installing symfony/dom-crawler (v5.0.2): Loading from cache
+  - Installing symfony/browser-kit (v5.0.2): Loading from cache
+  - Installing symfony/test-pack (v1.0.6): Loading from cache
+  - Installing sensio/framework-extra-bundle (v5.5.3): Loading from cache
+  - Installing symfony/asset (v5.0.2): Loading from cache
+  - Installing symfony/dotenv (v5.0.2): Loading from cache
+  - Installing symfony/expression-language (v5.0.2): Loading from cache
+  - Installing symfony/options-resolver (v5.0.2): Loading from cache
+  - Installing symfony/intl (v5.0.2): Loading from cache
+  - Installing symfony/polyfill-intl-icu (v1.13.1): Loading from cache
+  - Installing symfony/form (v5.0.2): Loading from cache
+  - Installing symfony/http-client-contracts (v2.0.1): Loading from cache
+  - Installing symfony/http-client (v5.0.2): Loading from cache
+  - Installing egulias/email-validator (2.1.13): Loading from cache
+  - Installing symfony/mailer (v5.0.2): Loading from cache
+  - Installing symfony/notifier (v5.0.2): Loading from cache
+  - Installing symfony/process (v5.0.2): Loading from cache
+  - Installing symfony/security-http (v5.0.2): Loading from cache
+  - Installing symfony/security-guard (v5.0.2): Loading from cache
+  - Installing symfony/security-csrf (v5.0.2): Loading from cache
+  - Installing symfony/security-bundle (v5.0.2): Loading from cache
+  - Installing symfony/polyfill-intl-normalizer (v1.13.1): Loading from cache
+  - Installing symfony/polyfill-intl-grapheme (v1.13.1): Loading from cache
+  - Installing symfony/string (v5.0.2): Loading from cache
+  - Installing symfony/translation (v5.0.2): Loading from cache
+  - Installing symfony/validator (v5.0.2): Loading from cache
+  - Installing psr/link (1.0.0): Loading from cache
+  - Installing symfony/web-link (v5.0.2): Loading from cache
+  - Installing nikic/php-parser (v4.3.0): Loading from cache
+  - Installing symfony/maker-bundle (v1.14.3): Loading from cache
+Package zendframework/zend-eventmanager is abandoned, you should avoid using it. Use laminas/laminas-eventmanager instead.
+Package zendframework/zend-code is abandoned, you should avoid using it. Use laminas/laminas-code 
+instead.
+Writing lock file
+Generating autoload files
+ocramius/package-versions: Generating version class...
+ocramius/package-versions: ...done generating version class
+Symfony operations: 20 recipes (dc9bd52a18e17b7934f6141047614321)
+  - Configuring symfony/framework-bundle (>=4.4): From github.com/symfony/recipes:master
+  - Configuring symfony/twig-bundle (>=5.0): From github.com/symfony/recipes:master
+  - Configuring symfony/routing (>=4.2): From github.com/symfony/recipes:master
+  - Configuring twig/extra-bundle (>=v3.0.1): From auto-generated recipe
+  - Configuring doctrine/annotations (>=1.0): From github.com/symfony/recipes:master
+  - Configuring symfony/web-profiler-bundle (>=3.3): From github.com/symfony/recipes:master       
+  - Configuring easycorp/easy-log-handler (>=1.0): From github.com/symfony/recipes:master
+  - Configuring symfony/monolog-bundle (>=3.3): From github.com/symfony/recipes:master
+  - Configuring symfony/debug-bundle (>=4.1): From github.com/symfony/recipes:master
+  - Configuring symfony/console (>=4.4): From github.com/symfony/recipes:master
+  - Configuring doctrine/doctrine-bundle (>=2.0): From github.com/symfony/recipes:master
+  - Configuring doctrine/doctrine-migrations-bundle (>=1.2): From github.com/symfony/recipes:master
+  - Configuring symfony/phpunit-bridge (>=4.3): From github.com/symfony/recipes:master
+  - Configuring sensio/framework-extra-bundle (>=5.2): From github.com/symfony/recipes:master
+  - Configuring symfony/mailer (>=4.3): From github.com/symfony/recipes:master
+  - Configuring symfony/notifier (>=5.0): From github.com/symfony/recipes:master
+  - Configuring symfony/security-bundle (>=4.4): From github.com/symfony/recipes:master
+  - Configuring symfony/translation (>=3.3): From github.com/symfony/recipes:master
+  - Configuring symfony/validator (>=4.3): From github.com/symfony/recipes:master
+  - Configuring symfony/maker-bundle (>=1.0): From github.com/symfony/recipes:master
+Executing script cache:clear [OK]
+Executing script assets:install public [OK]
+
+Some files may have been created or updated to configure your new packages.
+Please review, edit and commit them: these files are yours.
+
+Some files may have been created or updated to configure your new packages.
+Please review, edit and commit them: these files are yours.
+
+
+ What's next? 
+
+
+  * Run your application:
+    1. Go to the project directory
+    2. Create your code repository with the git init command
+    3. Download the Symfony CLI at https://symfony.com/download to install a development web server
+    => done
+
+  * Read the documentation at https://symfony.com/doc
+
+
+ Database Configuration 
+
+
+  * Modify your DATABASE_URL config in .env
+    => done (DATABASE_URL=mysql://root:@127.0.0.1:3306/blog?serverVersion=5.7)
+    - original .env backed in .env.backup
+
+  * Configure the driver (mysql) and
+    server_version (5.7) in config/packages/doctrine.yaml
+
+
+ How to test? 
+
+  * Write test cases in the tests/ folder
+  * Run php bin/phpunit
+
+
+ What's next? 
+
+
+  * You're ready to send emails.
+
+  * If you want to send emails via a supported email provider, install
+    the corresponding bridge.
+    For instance, composer require mailgun-mailer for Mailgun.
+
+  * If you want to send emails asynchronously:
+
+    1. Install the messenger component by running composer require messenger;
+    2. Add 'Symfony\Component\Mailer\Messenger\SendEmailMessage': amqp to the
+       config/packages/messenger.yaml file under framework.messenger.routing
+       and replace amqp with your transport name of choice.
+
+  * Read the documentation at https://symfony.com/doc/master/mailer.html
+
+
+
+
+
+PS C:\wamp64\www\tutoSymfony> symfony.exe server:ca:install
+You might have to enter your root password to install the local Certificate Authority certificate 
+The local CA is now installed in the system trust store!
+Generating a default certificate for HTTPS support
+
+
+ [OK] The local Certificate Authority is installed and trusted
+
+
+
+PS C:\wamp64\www\tutoSymfony> symfony server:start -d
+
+
+ [OK] Web server listening on https://127.0.0.1:8000
+
+
+
+
+Stream the logs via symfony.exe server:log
+
+
+

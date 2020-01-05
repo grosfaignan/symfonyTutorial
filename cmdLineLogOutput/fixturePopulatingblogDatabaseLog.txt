@@ -1,0 +1,77 @@
+PS C:\wamp64\www\tutoSymfony\demo> composer require orm-fixtures --dev
+Using version ^3.3 for doctrine/doctrine-fixtures-bundle
+./composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Restricting packages listed in "symfony/symfony" to "5.0.*"
+
+Prefetching 2 packages 
+  - Downloading (100%)
+
+Package operations: 2 installs, 0 updates, 0 removals
+  - Installing doctrine/data-fixtures (1.4.0): Loading from cache
+  - Installing doctrine/doctrine-fixtures-bundle (3.3.0): Loading from cache
+Package zendframework/zend-code is abandoned, you should avoid using it. Use laminas/laminas-code 
+instead.
+Package zendframework/zend-eventmanager is abandoned, you should avoid using it. Use laminas/laminas-eventmanager instead.
+Writing lock file
+ocramius/package-versions: Generating version class...
+ocramius/package-versions: ...done generating version class
+Symfony operations: 1 recipe (340f6e966dacc96e9bd012c99e68b165)
+  - Configuring doctrine/doctrine-fixtures-bundle (>=3.0): From github.com/symfony/recipes:master 
+Executing script cache:clear [OK]
+Executing script assets:install public [OK]
+
+Some files may have been created or updated to configure your new packages.
+Please review, edit and commit them: these files are yours.
+
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console make:fixtures
+
+ The class name of the fixtures to create (e.g. AppFixtures):
+
+ created: src/DataFixtures/ArticleFixtures.php
+
+ 
+  Success! 
+ 
+
+ Next: Open your new fixtures class and start customizing it.
+ Load your fixtures by running: php bin/console doctrine:fixtures:load
+ Docs: https://symfony.com/doc/master/bundles/DoctrineFixturesBundle/index.html
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console doctrine:fixtures:load 
+
+ Careful, database "blog" will be purged. Do you want to continue? (yes/no) [no]:
+ > y
+
+   > purging database
+   > loading App\DataFixtures\AppFixtures
+
+In ArticleFixtures.php line 20:
+
+  Notice: Undefined variable: manage  
+
+
+doctrine:fixtures:load [--append] [--group GROUP] [--em EM] [--shard SHARD] [--purge-with-truncateraction] [-e|--env ENV] [--no-debug] [--] <command>
+
+PS C:\wamp64\www\tutoSymfony\demo> php bin/console doctrine:fixtures:load
+
+ Careful, database "blog" will be purged. Do you want to continue? (yes/no) [no]:
+ > y
+
+   > purging database
+   > loading App\DataFixtures\AppFixtures
+   > loading App\DataFixtures\ArticleFixtures
+PS C:\wamp64\www\tutoSymfony\demo> composer require --dev symfony/var-dumper
+Restricting packages listed in "symfony/symfony" to "5.0.*"
+./composer.json has been updated
+Loading composer repositories with package information
+Updating dependencies (including require-dev)
+Restricting packages listed in "symfony/symfony" to "5.0.*"
+Nothing to install or update
+Package zendframework/zend-code is abandoned, you should avoid using it. Use laminas/laminas-code instead.
+Package zendframework/zend-eventmanager is abandoned, you should avoid using it. Use laminas/laminas-eventmanager instead.
+Generating autoload files
+ocramius/package-versions: Generating version class...
+ocramius/package-versions: ...done generating version class
+Executing script cache:clear [OK]
+Executing script assets:install public [OK]
